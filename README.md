@@ -4,7 +4,7 @@
 ## USE
 1. First you need to import it into your own go project.
 ```shell
-go get github.com/wanyun/cli
+go get github.com/gswy/cli
 ```
 2. Then you can use it normally:
 
