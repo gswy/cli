@@ -1,0 +1,37 @@
+package cli
+
+const (
+	FontBlack   = "\033[30m"
+	FontRed     = "\033[31m"
+	FontGreen   = "\033[32m"
+	FontYellow  = "\033[33m"
+	FontBlue    = "\033[34m"
+	FontMagenta = "\033[35m"
+	FontCyan    = "\033[36m"
+	FontWhite   = "\033[37m"
+
+	BackendBlack   = "\033[40m"
+	BackendRed     = "\033[41m"
+	BackendGreen   = "\033[42m"
+	BackendYellow  = "\033[43m"
+	BackendBlue    = "\033[44m"
+	BackendMagenta = "\033[45m"
+	BackendCyan    = "\033[46m"
+	BackendWhite   = "\033[47m"
+
+	StyleReset            = "\033[m"
+	StyleHighLight        = "\033[1m"
+	StyleBottomLine       = "\033[4m"
+	StyleFlash            = "\033[5m"
+	StyleReverse          = "\033[7m"
+	StyleCursorToTop      = "\033[1A"
+	StyleCursorToBottom   = "\033[1B"
+	StyleCursorToRight    = "\033[1C"
+	StyleCursorToLeft     = "\033[1D"
+	StyleClearScreen      = "\033[2J"
+	StyleCursorRightClear = "\033[K"
+	StyleCursorSave       = "\033[s"
+	StyleCursorReset      = "\033[u"
+	StyleCursorHide       = "\033[?25l"
+	StyleCursorShow       = "\033[?25h"
+)
