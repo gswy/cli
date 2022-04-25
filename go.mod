@@ -1,4 +1,4 @@
-module cli
+module github.com/gswy/cli
 
 go 1.17
 
